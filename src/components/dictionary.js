@@ -7,7 +7,7 @@ import Photos from "./photos";
 import { VscBook } from "react-icons/vsc";
 
 const Dictionary = () => {
-  const [keyword, setKeyword] = useState("sunset");
+  const [keyword, setKeyword] = useState("joy");
   const [results, setResults] = useState(null);
   const [photos, setPhotos] = useState(null);
 
