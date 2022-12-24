@@ -1,0 +1,27 @@
+.Footer {
+  padding: 20px 0 50px;
+  .built_by {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-weight: 500;
+    a {
+      color: #11b3d7;
+      text-decoration: none;
+      margin-right: 10px;
+      &:hover {
+        color: #11b3d7;
+        text-decoration: none;
+        opacity: 0.8;
+      }
+    }
+    .icon {
+      position: relative;
+      top: -1px;
+    }
+  }
+}

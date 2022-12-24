@@ -1,0 +1,60 @@
+.App-header {
+  padding: 60px 20px 80px;
+  background-image: url(../images/dictionary_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 6px 2px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  margin-bottom: 30px;
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #11b3d7;
+    svg {
+      margin-right: 5px;
+      margin-top: -3px;
+    }
+  }
+  h2 {
+    font-weight: 700;
+  }
+  input {
+    width: 50%;
+    border-radius: 25px;
+    margin-top: 15px;
+    padding: 15px 20px;
+    border: 1px solid #11b3d7;
+    box-shadow: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin-bottom: 10px;
+
+    &:focus,
+    &:active {
+      box-shadow: none;
+      outline-offset: -2px;
+      outline: 2px solid #11b3d7;
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .App-header input {
+    width: 100%;
+  }
+}
+
+.Loading {
+  position: relative;
+  flex-flow: column wrap;
+  overflow: auto;
+  padding: 30px 20px;
+  display: flex;
+  -webkit-box-pack: center;
+  place-content: center;
+  place-items: center;
+  -webkit-box-align: center;
+}
