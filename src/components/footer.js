@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="Footer">
       <p className="built_by">
         <a
-          href="https://github.com/promise-owa/dictionary-app"
+          href="https://github.com/promiseowa/dictionary-app"
           target="_blank"
           rel="noreferrer"
         >
