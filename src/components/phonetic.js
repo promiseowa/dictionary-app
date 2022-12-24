@@ -1,5 +1,5 @@
 import React from "react";
-import "./Phonetic.scss";
+import "./phonetic.scss";
 import useSound from "use-sound";
 import { AiOutlineSound } from "react-icons/ai";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Photos.scss";
+import "./photos.scss";
 
 const Photos = ({ photos }) => {
   if (photos) {

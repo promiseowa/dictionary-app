@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Dictionary.scss";
+import "./dictionary.scss";
 import axios from "axios";
-import Results from "./Results";
+import Results from "./results";
 import PropagateLoader from "react-spinners/PropagateLoader";
-import Photos from "./Photos";
+import Photos from "./photos";
 import { VscBook } from "react-icons/vsc";
 
 const Dictionary = () => {
@@ -43,18 +43,19 @@ const Dictionary = () => {
       <div className="container">
         <h1>
           <VscBook />
-          Dictionary project
+          Open Dictionary
         </h1>
-        <h2>What word do you want to look up?</h2>
+        <h2>Go On...look up any word</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
             onChange={updateKeyword}
             placeholder="Write a word"
           />
+          <button>Search</button>
         </form>
         <p>
-          <small>e.g. sunset, wine, yoga, coding</small>
+          <small>e.g. sunrise, wine, yoga, coding</small>
         </p>
       </div>
     </header>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Antonyms.scss";
+import "./antonyms.scss";
 
 const Antonyms = ({ antonyms }) => {
   if (antonyms.length !== 0) {

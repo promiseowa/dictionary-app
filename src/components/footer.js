@@ -1,20 +1,20 @@
 import React from "react";
 import { GoMarkGithub } from "react-icons/go";
 
-import "./Footer.scss";
+import "./footer.scss";
 
 const Footer = () => {
   return (
     <footer className="Footer">
       <p className="built_by">
         <a
-          href="https://github.com/martamd-front/dictionary-react"
+          href="https://github.com/promise-owa/dictionary-app"
           target="_blank"
           rel="noreferrer"
         >
-          <GoMarkGithub className="icon" /> Open-source code
+          <GoMarkGithub className="icon" /> source-code
         </a>
-        by Marta Muñoz
+        by Promise Owa
       </p>
     </footer>
   );

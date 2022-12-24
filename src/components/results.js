@@ -1,7 +1,7 @@
 import React from "react";
-import Meaning from "./Meaning";
-import Phonetic from "./Phonetic";
-import "./Results.scss";
+import Meaning from "./meaning";
+import Phonetic from "./phonetic";
+import "./results.scss";
 
 const Results = ({ results }) => {
   if (results) {

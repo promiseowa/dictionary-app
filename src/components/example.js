@@ -1,5 +1,5 @@
 import React from "react";
-import "./Example.scss";
+import "./example.scss";
 
 const Example = ({ example }) => {
   if (example) {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Synonyms.scss";
+import "./synonyms.scss";
 
 const Synonyms = ({ synonyms }) => {
   if (synonyms.length !== 0) {

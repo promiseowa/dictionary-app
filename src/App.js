@@ -1,6 +1,6 @@
 import "./App.scss";
-import Dictionary from "./components/Dictionary";
-import Footer from "./components/Footer";
+import Dictionary from "./components/dictionary";
+import Footer from "./components/footer";
 
 function App() {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
-import Example from "./Example";
-import "./Meaning.scss";
-import Synonyms from "./Synonyms";
-import Antonyms from "./Antonyms";
+import Example from "./example";
+import "./meaning.scss";
+import Synonyms from "./synonyms";
+import Antonyms from "./antonyms";
 
 const Meaning = ({ meaning }) => {
   return (
