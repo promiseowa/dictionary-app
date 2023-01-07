@@ -41,7 +41,7 @@ const Dictionary = () => {
   const form = (
     <header className="App-header">
       <div className="container">
-        <h1 className="d-lg-block">
+        <h1>
           <VscBook />
           Open Dictionary
         </h1>
