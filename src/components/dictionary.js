@@ -41,13 +41,11 @@ const Dictionary = () => {
   const form = (
     <header className="App-header">
       <div className="container">
-        <div className="welcomeWords>"
-          <h1>
-            <VscBook />
-            Open Dictionary
-          </h1>
-          <h2>Go On...look up any word</h2>
-        </div>
+        <h1>
+          <VscBook />
+          Open Dictionary
+        </h1>
+        <h2>Go On...look up any word</h2>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
